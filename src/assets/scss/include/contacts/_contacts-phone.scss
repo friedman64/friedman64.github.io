@@ -1,0 +1,13 @@
+.contacts-phone {
+  margin-top: 20px;
+  font-family: $base-font !important;
+  font-size: 26px;
+  line-height: 36px;
+  text-decoration: none;
+  color: $green;
+  transition: 0.2s;
+
+  &:hover {
+    color: darken($green, 10%);
+  }
+}

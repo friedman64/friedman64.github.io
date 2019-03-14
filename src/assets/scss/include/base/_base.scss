@@ -1,0 +1,72 @@
+@import "variables";
+@import "fonts";
+
+h1,h2,h3,h4 {
+	margin: 0;
+	font-weight: normal;
+}
+
+body {
+	background-color: #fff;
+	margin: 0;
+	font-family: $base-font;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+	padding-top: 50px;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 20px;
+
+	&--pr-0 {
+		padding-right: 0;
+
+		@media (max-width: 1199px) {
+			padding-left: 0;
+		}
+	}
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+
+	@media (max-width: 1199px) {
+		justify-content: center;
+		text-align: center;
+	}
+}
+
+.col-5 {
+	width: 50%;
+	padding: 0 40px;
+	box-sizing: border-box;
+
+	@media (max-width: 1199px) {
+		width: 100%;
+	}
+
+	@media (max-width: 420px) {
+		padding: 0 20px;
+	}
+
+	&--full {
+		padding-right: 0;
+		padding-left: 0;
+
+		@media (max-width: 420px) {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+}
+
+.col-10 {
+	width: 100%;
+	padding: 0 40px;
+}

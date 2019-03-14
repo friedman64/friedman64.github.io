@@ -1,0 +1,11 @@
+.contacts-text {
+  max-width: 550px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  line-height: 28px;
+
+  @media (max-width: 1199px) {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

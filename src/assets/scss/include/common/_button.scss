@@ -1,0 +1,22 @@
+.button {
+  padding: 33px 92px;
+  border: none;
+  outline: none;
+  background-color: $darken;
+  font-family: $bold-font;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: $white;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: rgba($darken, 0.95);
+  }
+
+  &[disabled] {
+    background-color: lighten($darken, 15%);
+    cursor: default;
+  }
+}

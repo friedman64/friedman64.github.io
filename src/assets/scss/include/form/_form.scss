@@ -1,0 +1,24 @@
+.form {
+  padding: 90px 0;
+  background-image: url('./assets/pattern.png');
+  //background-size: cover;
+  color: $white;
+
+  .section-title {
+    margin-bottom: 15px;
+  }
+}
+
+.form__status {
+  display: flex;
+  flex-direction: column;
+  color: $red;
+  font-family: $bold-font;
+  font-size: 13px;
+  margin-bottom: 20px;
+
+
+  &_ok {
+    color: white !important;
+  }
+}

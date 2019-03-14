@@ -1,0 +1,9 @@
+.offices {
+  background-color: $dark;
+  background-image: url('./assets/noise.png');
+  color: $white;
+
+  &__inner {
+    padding: 90px 0;
+  }
+}
