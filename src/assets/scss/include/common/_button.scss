@@ -19,4 +19,8 @@
     background-color: lighten($darken, 15%);
     cursor: default;
   }
+
+  @media (max-width: 420px) {
+    padding: 20px 60px;
+  }
 }

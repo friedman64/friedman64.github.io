@@ -1,3 +1,14 @@
 .contacts {
   padding-bottom: 90px;
+
+  .row {
+
+    @media (max-width: 1199px) {
+      .col-5 {
+        &:first-child {
+          padding-bottom: 30px;
+        }
+      }
+    }
+  }
 }

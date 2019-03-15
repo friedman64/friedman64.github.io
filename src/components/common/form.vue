@@ -14,7 +14,7 @@
                             <label>Phone</label>
                         </div>
                         <div class="form-inputs-group" :class="{error : errors.email === true}">
-                            <input type="text" v-model="form.email" @change="errors.email = false">
+                            <input type="email" v-model="form.email" @change="errors.email = false">
                             <label>E-mail</label>
                         </div>
                         <div class="form-inputs-checkbox" :class="{error : errors.checkbox === true}">
